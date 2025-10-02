@@ -7,9 +7,9 @@
 # Windows PowerShellの場合
 iwr -useb https://mise.jdx.dev/install.ps1 | iex
 
-# Node.jsの最新LTS版をインストール
-mise install node@lts
-mise use node@lts
+# Node.jsの最新22版をインストール
+mise install node@22
+mise use node@22
 
 # バージョン確認
 node --version
